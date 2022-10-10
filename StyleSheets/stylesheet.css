@@ -1,1 +1,172 @@
+@font-face { font-family: "Poppins";    src: url("Fonts/Poppins.ttf"); }
+@font-face { font-family: "Space Mono"; src: url("Fonts/Space\ Mono.ttf"); }
 
+
+::selection { background: transparent; }
+
+
+body { 
+
+	background: -webkit-linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
+	background: -moz-linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
+	background: hsla(141, 81%, 87%, 1);
+	background: linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C5F9D7", endColorstr="#F7D486", GradientType=1);
+}
+
+
+.header { 
+	
+	text-align: center; font-size: 40px; font-weight: 600px;
+	font-family: "Space Mono", sans-serif; 
+	background: -webkit-linear-gradient(#eeee, #003048);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-top: 80px; margin-bottom: 35px;
+}
+
+
+p { 
+
+	margin: 0; color: #DC143C; font-family: "Space Mono";
+	font-weight: 600px; text-align: center; 
+	font-size: small;
+}
+
+
+p a { color: #8888; text-decoration: none; }
+#controls { text-align: center; }
+.vibrate  { animation: tease 1.5s 1s; }
+
+
+#controls button {
+
+	cursor: pointer; outline: none; padding: 8px 28px; 
+	margin: 30px 25px; border: 0; border-radius: 28px;
+	background: #f1515e; font-family: "Poppins";
+	font-weight: bold; font-size: 18px;
+	text-align: center;
+	text-shadow: 2.5px 2.5px 2.5px rgb(0, 102, 0);
+	color: #ffff;
+}
+
+
+#controls button:hover { 
+
+	background: #003048; 
+	text-decoration: none;
+}
+
+
+.vibrate { 
+
+	text-shadow: 2.5px 2.5px 2.5px #DC143C; 
+	color: #ffff; 
+}
+
+
+#playing-rules {
+
+    font-family: 'Space Mono', monospace; font-size: 28px;
+    position: absolute; bottom: 48px; right: 16px;
+    z-index: 3; width: 48px;
+    height: 48px; border-radius: 5px;
+    border: 0px; background: #0081a7;
+    color: #ffff;
+}
+
+
+#playing-rules:hover  { box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.35); }
+#playing-rules:active { box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25); }
+#playing-rules:focus  { outline: none; }
+
+
+.info {
+
+    display: none; position: fixed;
+    z-index: 4; left: 0;
+    top: 0; width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.close {
+
+    color: #aaa; float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.close:hover, .close:focus {
+
+    color: #0000; text-decoration: none;
+    cursor: pointer;
+}
+
+
+.info-header {
+
+	font-family: "Poppins", sans-serif; padding: 10px;
+	font-size: 1.2rem; font-weight: bolder;
+    text-align: center;
+}
+
+
+.info-body, .info-footer {
+
+	font-family: "Poppins", sans-serif; padding: 20px; 
+	font-size: 1rem; font-weight: bolder;
+    text-align: center;
+}
+
+
+.info-content {
+
+    position: relative; left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #ffff;
+    border-radius: 10px; width: fit-content;
+    animation: falldown 0.4s 0s;
+}
+
+
+#puzzle {
+
+	position: relative; width: 325px; height: 325px; margin: 0 auto; 
+	border: 8px solid; border-style: groove;
+	border-radius: 10px;
+	border-image: linear-gradient(to right, #ff6347 20%, green 20%, green 40%,
+		#154c79 40%, #154c79 60%, #fa8072 60%, #fa8072 80%, #db7093 80%); 
+  	border-image-slice: 1;
+}
+
+
+#puzzle span {
+
+	position: absolute; display: block;
+	width: 80px; height: 80px;
+	border-radius: 10px;
+}
+
+
+#puzzle span.number {
+
+	cursor: pointer; font: bold 36px/80px "Space Mono";
+	text-align: center; color: #ffff;
+	text-shadow: 2px 2px 2px #eb6758;
+}
+
+
+#puzzle span.empty { background: transparent; }
+#puzzle span.number.light { background: #DC143C; }
+#puzzle span.number.dark  { background: #003049; }
+
+
+#puzzle.animate span {
+
+	-webkit-transition: 0.15s left, 0.15s top;
+ 	transition: 0.15s left, 0.15s top;
+}
