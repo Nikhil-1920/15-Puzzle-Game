@@ -103,10 +103,24 @@ Arrange all numbered tiles from **1 to 15** in ascending order with the empty sp
 
 <div align="center">
 
-| Scrambled State | Solved State |
-|----------------|-------------|
-| ![Scrambled](images/scrambled.png) | ![Solved](images/solved.png) |
-| *🔀 Challenge yourself with the scrambled puzzle!* | *🎉 Victory! All tiles in perfect order.* |
+<table>
+  <tr>
+    <th>Scrambled State</th>
+    <th>Solved State</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/scrambled.png" alt="Scrambled" width="300">
+      <br>
+      <em>🔀 Challenge yourself with the scrambled puzzle!</em>
+    </td>
+    <td align="center">
+      <img src="images/solved.png" alt="Solved" width="300">
+      <br>
+      <em>🎉 Victory! All tiles in perfect order.</em>
+    </td>
+  </tr>
+</table>
 
 </div>
 
