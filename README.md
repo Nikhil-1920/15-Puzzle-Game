@@ -110,13 +110,13 @@ Arrange all numbered tiles from **1 to 15** in ascending order with the empty sp
   </tr>
   <tr>
     <td align="center">
-      <img src="images/scrambled.png" alt="Scrambled" width="300">
-      <br>
+      <img src="images/scrambled.png" alt="Scrambled" width="300" height="300">
+      <br><br>
       <em>🔀 Challenge yourself with the scrambled puzzle!</em>
     </td>
     <td align="center">
-      <img src="images/solved.png" alt="Solved" width="300">
-      <br>
+      <img src="images/solved.png" alt="Solved" width="300" height="300">
+      <br><br>
       <em>🎉 Victory! All tiles in perfect order.</em>
     </td>
   </tr>
