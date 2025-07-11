@@ -1,9 +1,7 @@
-@font-face { font-family: "Poppins";    src: url("Fonts/Poppins.ttf"); }
-@font-face { font-family: "Space Mono"; src: url("Fonts/Space\ Mono.ttf"); }
-
+@font-face { font-family: "Poppins";    src: url("fonts/poppins.ttf"); }
+@font-face { font-family: "Space Mono"; src: url("fonts/space-mono.ttf"); }
 
 ::selection { background: transparent; }
-
 
 body { 
 
@@ -13,7 +11,6 @@ body {
 	background: linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
 	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C5F9D7", endColorstr="#F7D486", GradientType=1);
 }
-
 
 .header { 
 	
@@ -25,7 +22,6 @@ body {
 	margin-top: 80px; margin-bottom: 35px;
 }
 
-
 p { 
 
 	margin: 0; color: #DC143C; font-family: "Space Mono";
@@ -33,11 +29,9 @@ p {
 	font-size: small;
 }
 
-
 p a { color: #8888; text-decoration: none; }
 #controls { text-align: center; }
 .vibrate  { animation: tease 1.5s 1s; }
-
 
 #controls button {
 
@@ -50,20 +44,17 @@ p a { color: #8888; text-decoration: none; }
 	color: #ffff;
 }
 
-
 #controls button:hover { 
 
 	background: #003048; 
 	text-decoration: none;
 }
 
-
 .vibrate { 
 
 	text-shadow: 2.5px 2.5px 2.5px #DC143C; 
 	color: #ffff; 
 }
-
 
 #playing-rules {
 
@@ -75,11 +66,9 @@ p a { color: #8888; text-decoration: none; }
     color: #ffff;
 }
 
-
 #playing-rules:hover  { box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.35); }
 #playing-rules:active { box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25); }
 #playing-rules:focus  { outline: none; }
-
 
 .info {
 
@@ -90,7 +79,6 @@ p a { color: #8888; text-decoration: none; }
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-
 .close {
 
     color: #aaa; float: right;
@@ -98,13 +86,11 @@ p a { color: #8888; text-decoration: none; }
     font-weight: bold;
 }
 
-
 .close:hover, .close:focus {
 
     color: #0000; text-decoration: none;
     cursor: pointer;
 }
-
 
 .info-header {
 
@@ -113,14 +99,12 @@ p a { color: #8888; text-decoration: none; }
     text-align: center;
 }
 
-
 .info-body, .info-footer {
 
 	font-family: "Poppins", sans-serif; padding: 20px; 
 	font-size: 1rem; font-weight: bolder;
     text-align: center;
 }
-
 
 .info-content {
 
@@ -132,7 +116,6 @@ p a { color: #8888; text-decoration: none; }
     animation: falldown 0.4s 0s;
 }
 
-
 #puzzle {
 
 	position: relative; width: 325px; height: 325px; margin: 0 auto; 
@@ -143,14 +126,12 @@ p a { color: #8888; text-decoration: none; }
   	border-image-slice: 1;
 }
 
-
 #puzzle span {
 
 	position: absolute; display: block;
 	width: 80px; height: 80px;
 	border-radius: 10px;
 }
-
 
 #puzzle span.number {
 
@@ -159,11 +140,9 @@ p a { color: #8888; text-decoration: none; }
 	text-shadow: 2px 2px 2px #eb6758;
 }
 
-
 #puzzle span.empty { background: transparent; }
 #puzzle span.number.light { background: #DC143C; }
 #puzzle span.number.dark  { background: #003049; }
-
 
 #puzzle.animate span {
 

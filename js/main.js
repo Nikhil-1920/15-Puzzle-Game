@@ -19,7 +19,6 @@
 	document.getElementById('decipher').addEventListener('click', decipher);
 	document.getElementById('scramble').addEventListener('click', scramble);
 
-	
 	function decipher() {
 		
 		if(state == 0) { return; }
@@ -49,7 +48,6 @@
 		}
 	}
 
-
 	setInterval(() => {
 
 		repoStars.classList.remove('vibrate');
@@ -57,15 +55,12 @@
 		repoStars.classList.add('vibrate');
 	}, 90000);
 	
-
 	const playRules = document.getElementById('playing-rules');
 	const infoPanel = document.getElementById('display-panel');
 	const close = document.getElementsByClassName('close')[0];
 
-
 	playRules.onclick = () => { infoPanel.style.display = 'block'; };
 	close.onclick = () => { infoPanel.style.display = 'none'; };
-
 
 	window.onclick = (event) => {
 
@@ -76,14 +71,12 @@
 		}
 	};
 	
-
 	setInterval(() => {
 
 		playRules.classList.remove('vibrate');
 		void playRules.offsetWidth;
 		playRules.classList.add('vibrate');
 	}, 30000)
-
 
 	function shiftCell(cell) {
 		
@@ -106,11 +99,9 @@
 		}
 	}
 
-
 	function getCell(row, col) { return document.getElementById('cell-' + row + '-' + col); }
 	function getEmptyCell() { return puzzle.querySelector('.empty'); }
 	
-
 	function getEmptyAdjacentCell(cell) {
 		
 		var adjacent = getAdjacentCells(cell);
@@ -126,7 +117,6 @@
 		return false;
 	}
 
-
 	function getAdjacentCells(cell) {
 		
 		var id  = cell.id.split('-');
@@ -141,7 +131,6 @@
 		if(col > 0) { adjacent.push(getCell(row, col - 1)); }
 		return adjacent;
 	}
-	
 
 	// Checks order of numbers
 	function checkOrder() {
@@ -161,7 +150,6 @@
 
 		if(confirm('Congrats, You did it!! \nScramble the puzzle?')) { scramble(); }
 	}
-
 
 	function scramble() {
 	
