@@ -1,42 +1,48 @@
-🧩 15-Puzzle-Game
-A classic sliding puzzle game built with vanilla web technologies 🎮
-🎯 Play Now • 📖 Rules • 🤝 Contribute
+```markdown
+# 🧩 15-Puzzle-Game
 
-🎯 Project Overview
-Welcome to the 15-Puzzle-Game! This is a classic sliding puzzle game that challenges your problem-solving skills. The objective is simple yet engaging: arrange the numbered tiles from 1 to 15 in ascending order by sliding them into the empty space.
-✨ Features
+<div align="center">
+  
+![15-Puzzle Game](https://img.shields.io/badge/Game-15--Puzzle-blue?style=for-the-badge)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-🎮 Interactive Gameplay - Click tiles adjacent to the empty space to move them
-🔀 Scramble Function - Randomly shuffle tiles to start a new challenge
-🎯 Decipher Mode - Auto-arrange tiles in correct order
-📱 Responsive Design - Works seamlessly across all device sizes
-🎨 Custom Animations - Smooth tile transitions and button effects
-🎭 Beautiful UI - Gradient backgrounds with custom typography
-❓ Interactive Rules - Built-in help modal for game instructions
+**A classic sliding puzzle game built with vanilla web technologies** 🎮
 
-🛠️ Technologies Used
+[🎯 Play Now](#installation) • [📖 Rules](#usage) • [🤝 Contribute](#contributing)
 
+</div>
 
+---
 
-Technology
-Purpose
+## 🎯 Project Overview
 
+Welcome to the **15-Puzzle-Game**! This is a classic sliding puzzle game that challenges your problem-solving skills. The objective is simple yet engaging: arrange the numbered tiles from 1 to 15 in ascending order by sliding them into the empty space.
 
+### ✨ Features
 
+- 🎮 **Interactive Gameplay** - Click tiles adjacent to the empty space to move them
+- 🔀 **Scramble Function** - Randomly shuffle tiles to start a new challenge
+- 🎯 **Decipher Mode** - Auto-arrange tiles in correct order
+- 📱 **Responsive Design** - Works seamlessly across all device sizes
+- 🎨 **Custom Animations** - Smooth tile transitions and button effects
+- 🎭 **Beautiful UI** - Gradient backgrounds with custom typography
+- ❓ **Interactive Rules** - Built-in help modal for game instructions
 
-Structure and layout
+### 🛠️ Technologies Used
 
+| Technology | Purpose |
+|------------|---------|
+| ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | Structure and layout |
+| ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) | Styling and animations |
+| ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | Game logic and interactivity |
 
+---
 
-Styling and animations
+## 📁 Directory Structure
 
-
-
-Game logic and interactivity
-
-
-
-📁 Directory Structure
+```
 15-Puzzle-Game/
 ├── 📄 index.html
 ├── 📖 README.md
@@ -47,109 +53,159 @@ Game logic and interactivity
 │       ├── 🔤 poppins.ttf
 │       └── 🔤 space-mono.ttf
 ├── 📁 js/
-│   └── ⚙️ main.js
+│   └── ⚙️ index.js
 └── 📁 images/
     └── 🎯 favicon.png
 
+```
 
-🚀 Installation
-Quick Start
+---
 
-📥 Clone the repository
-git clone https://github.com/Nikhil-1920/15-Puzzle-Game.git
+## 🚀 Installation
 
+### Quick Start
 
-📂 Navigate to project directory
-cd 15-Puzzle-Game
+1. **📥 Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/15-Puzzle-Game.git
+   ```
 
+2. **📂 Navigate to project directory**
+   ```bash
+   cd 15-Puzzle-Game
+   ```
 
-🌐 Launch the game
-# Simply open index.html in your browser
-open index.html
-# OR double-click the index.html file
+3. **🌐 Launch the game**
+   ```bash
+   # Simply open index.html in your browser
+   open index.html
+   # OR double-click the index.html file
+   ```
 
+### 🎮 Alternative: Play Online
+> Host it on GitHub Pages, Netlify, or Vercel for instant access!
 
+---
 
-🎮 Alternative: Play Online
-Host it on GitHub Pages, Netlify, or Vercel for instant access!
+## 🎯 Usage
 
-🎯 Usage
-🎮 How to Play
+### 🎮 How to Play
 
+| Action | Description |
+|--------|-------------|
+| **🎯 Decipher** | Automatically arrange tiles in correct order (1-15) |
+| **🔀 Scramble** | Randomly shuffle tiles to start a new game |
+| **🖱️ Move Tiles** | Click any tile adjacent to the empty space |
+| **❓ Rules** | Click the "?" button to view detailed game instructions |
 
+### 🏆 Objective
+Arrange all numbered tiles from **1 to 15** in ascending order with the empty space in the bottom-right corner.
 
-Action
-Description
+### 💡 Tips
+- 🧠 Think ahead before making moves
+- 🔄 Use the scramble function for new challenges
+- 📱 Game works great on mobile devices too!
 
+---
 
+## 🎨 Screenshots
 
-🎯 Decipher
-Automatically arrange tiles in correct order (1-15)
+<div align="center">
 
+| Desktop View | Mobile View |
+|-------------|-------------|
+| ![Desktop](https://via.placeholder.com/400x300/4A90E2/FFFFFF?text=Desktop+View) | ![Mobile](https://via.placeholder.com/200x350/4A90E2/FFFFFF?text=Mobile+View) |
 
-🔀 Scramble
-Randomly shuffle tiles to start a new game
+</div>
 
+---
 
-🖱️ Move Tiles
-Click any tile adjacent to the empty space
+## 🤝 Contributing
 
-
-❓ Rules
-Click the "?" button to view detailed game instructions
-
-
-🏆 Objective
-Arrange all numbered tiles from 1 to 15 in ascending order with the empty space in the bottom-right corner.
-💡 Tips
-
-🧠 Think ahead before making moves
-🔄 Use the scramble function for new challenges
-📱 Game works great on mobile devices too!
-
-🎨 Screenshots
-
-  
-  
-
-
-
-🤝 Contributing
 We welcome contributions! Here's how you can help improve the 15-Puzzle-Game:
-📝 Steps to Contribute
 
-🍴 Fork the repository
+### 📝 Steps to Contribute
 
-Click the 'Fork' button on GitHub
+1. **🍴 Fork the repository**
+   ```bash
+   # Click the 'Fork' button on GitHub
+   ```
 
+2. **🌿 Create a feature branch**
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
 
-🌿 Create a feature branch
-git checkout -ulfonic b feature/amazing-feature
+3. **💻 Make your changes**
+   ```bash
+   # Add your improvements
+   git add .
+   git commit -m "✨ Add amazing feature"
+   ```
 
+4. **🚀 Push to your branch**
+   ```bash
+   git push origin feature/amazing-feature
+   ```
 
-💻 Make your changes
-# Add your improvements
-git add .
-git commit -m "✨ Add amazing feature"
+5. **🔄 Open a Pull Request**
+   - Go to GitHub and create a Pull Request
+   - Describe your changes clearly
 
+### 🎯 Contribution Ideas
 
-🚀 Push to your branch
-git push origin feature/amazing-feature
+- 🎵 Add sound effects
+- 🏅 Implement scoring system
+- ⏱️ Add timer functionality
+- 🎨 Create new themes
+- 📊 Add statistics tracking
+- 🌍 Implement internationalization
 
+---
 
-🔄 Open a Pull Request
+## 📜 License
 
-Go to GitHub and create a Pull Request
-Describe your changes clearly
+This project is licensed under the **MIT License** 📄
 
+```
+MIT License - Feel free to use, modify, and distribute! 🚀
+```
 
+---
 
-🎯 Contribution Ideas
+## 📞 Contact & Support
 
-🎵 Add sound effects
-🏅 Implement scoring system
-⏱️ Add timer functionality
-🎨 Create new themes
-📊 Add statistics tracking
-🌍 Implement internationalization
+<div align="center">
 
+**Questions? Feedback? We'd love to hear from you!** 💬
+
+[![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-red?style=for-the-badge&logo=github)](https://github.com/yourusername/15-Puzzle-Game/issues)
+[![Email](https://img.shields.io/badge/Email-Contact-blue?style=for-the-badge&logo=gmail)](mailto:your.email@example.com)
+
+</div>
+
+---
+
+## 🌟 Show Your Support
+
+If you found this project helpful, please consider:
+
+- ⭐ **Star this repository**
+- 🍴 **Fork it for your own projects**
+- 📢 **Share it with friends**
+- 🐛 **Report bugs or suggest features**
+
+<div align="center">
+
+**Made with ❤️ by [Your Name]**
+
+*Happy Puzzling! 🧩*
+
+</div>
+
+---
+
+<div align="center">
+  <sub>Built with 🎯 HTML5 • 🎨 CSS3 • ⚡ JavaScript</sub>
+</div>
+```
