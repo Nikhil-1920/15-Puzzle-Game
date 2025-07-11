@@ -29,14 +29,6 @@ Welcome to the **15-Puzzle-Game**! This is a classic sliding puzzle game that ch
 - 🎭 **Beautiful UI** - Gradient backgrounds with custom typography
 - ❓ **Interactive Rules** - Built-in help modal for game instructions
 
-### 🛠️ Technologies Used
-
-| Technology | Purpose |
-|------------|---------|
-| ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | Structure and layout |
-| ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) | Styling and animations |
-| ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | Game logic and interactivity |
-
 ---
 
 ## 📁 Directory Structure
