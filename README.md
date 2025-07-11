@@ -1,4 +1,3 @@
-```markdown
 # 🧩 15-Puzzle-Game
 
 <div align="center">
@@ -112,9 +111,10 @@ Arrange all numbered tiles from **1 to 15** in ascending order with the empty sp
 
 <div align="center">
 
-| Desktop View | Mobile View |
-|-------------|-------------|
-| ![Desktop](https://via.placeholder.com/400x300/4A90E2/FFFFFF?text=Desktop+View) | ![Mobile](https://via.placeholder.com/200x350/4A90E2/FFFFFF?text=Mobile+View) |
+| Scrambled State | Solved State |
+|----------------|-------------|
+| ![Scrambled](images/scrambled.png) | ![Solved](images/solved.png) |
+| *🔀 Challenge yourself with the scrambled puzzle!* | *🎉 Victory! All tiles in perfect order.* |
 
 </div>
 
@@ -163,49 +163,3 @@ We welcome contributions! Here's how you can help improve the 15-Puzzle-Game:
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License** 📄
-
-```
-MIT License - Feel free to use, modify, and distribute! 🚀
-```
-
----
-
-## 📞 Contact & Support
-
-<div align="center">
-
-**Questions? Feedback? We'd love to hear from you!** 💬
-
-[![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-red?style=for-the-badge&logo=github)](https://github.com/yourusername/15-Puzzle-Game/issues)
-[![Email](https://img.shields.io/badge/Email-Contact-blue?style=for-the-badge&logo=gmail)](mailto:your.email@example.com)
-
-</div>
-
----
-
-## 🌟 Show Your Support
-
-If you found this project helpful, please consider:
-
-- ⭐ **Star this repository**
-- 🍴 **Fork it for your own projects**
-- 📢 **Share it with friends**
-- 🐛 **Report bugs or suggest features**
-
-<div align="center">
-
-**Made with ❤️ by [Your Name]**
-
-*Happy Puzzling! 🧩*
-
-</div>
-
----
-
-<div align="center">
-  <sub>Built with 🎯 HTML5 • 🎨 CSS3 • ⚡ JavaScript</sub>
-</div>
-```
